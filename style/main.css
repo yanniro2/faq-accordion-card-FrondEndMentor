@@ -1,0 +1,131 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7)) no-repeat center;
+  background: linear-gradient(#af67e9, #6565e7) no-repeat center;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 70%;
+  background-color: #fff;
+  margin: 4rem auto;
+  border-radius: 1rem;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 4rem;
+}
+
+.main-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 4rem;
+  padding: 1rem;
+}
+
+.main-right .headding {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-right .content {
+  margin: 2rem 1rem;
+}
+
+.main-right .content h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #1d1e35;
+  cursor: pointer;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.main-right .content h3 span {
+  margin: 1rem;
+}
+
+.main-left {
+  width: 50%;
+  height: 50vh;
+}
+
+.main-left .img {
+  position: relative;
+  width: 100%;
+}
+
+.main-left .img-women {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  -webkit-transform: translate(-20%, -2%);
+          transform: translate(-20%, -2%);
+  z-index: 50;
+}
+
+.main-left .img-box {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  -webkit-transform: translate(-80%, 50%);
+          transform: translate(-80%, 50%);
+  z-index: 100;
+}
+
+.hidden {
+  display: none;
+  width: 0;
+  opacity: 0;
+}
+
+.attribution {
+  color: #787887;
+}
+/*# sourceMappingURL=main.css.map */
